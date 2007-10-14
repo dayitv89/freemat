@@ -1,0 +1,55 @@
+#summary User Wishlist for FreeMat.
+
+=User Wishlist for FreeMat=
+
+===1. Save/load command support ascii format===
+The save/load commands of current vesion of freemat(3.2) seem to support only the
+matlab binary format file. As ascii format file is more readable and convenient for
+data preparation, accii format support is important.
+
+===2. 100% documentation coverage===
+This is very important, since such a high complex software is impossible to use
+without documentation and many examples.
+
+===3. HTML documentation online===
+Publish the HTML documentation on the net too, since it's very simple to browse,
+can be indexed by search engines, increases the sourceforge project ranking, etc.
+Also create a "one page version" of it and a "chapter" version where every chapter is a page. The fragmentation of actual version is too high (every small function is an independent page).
+
+===4. FreeMat Engine usage Tutorials ===
+It would be very important to know how to use the Freemat Engine from other applications (and languages, e.g. Java), since it's potential would be greater if it could be used from various web applications, or to be compiled into customized applications (the same way as Matlab engine)
+
+===5. Higher Matlab compatibility===
+Higher Matlab compatibility would be very important, but on the M file level, and not necessary on the GUI/IDE level (since the Matlab GUI is not that great compared to other IDEs).
+
+===6. Support for external editors ===
+Some support to be able to use other editors than the included one for M files, since there are better IDEs(that just need a plug-in), and it makes no sense to reinvent the wheel and create a full blown M file IDE.
+
+===7. Debugger and Profile API===
+Documented API on how to be able to control the debuging and profiling of the Freemat Engine from other applications (e.g. from external IDEs, but also from custom applications that want to integrate the Engine). '' a good example for such an API is the [http://java.sun.com/products/jpda/ Java Platform Debugger Architecture]
+
+===8. Java Integration===
+Integrate Java, but avoid the bad example of integration done by Mathworks. See [JavaIntegration | development page] for progress.
+
+===9. Equations solvers===
+The solvers for system of nonlinear, system of ordinary differential equations must exist in the software of this kind.
+
+===10. Eclipse Plugin===
+Develop an Eclipse plugin for accessing the freemat engine in Eclipse and to create and execute `*.m` files. This will be very useful together with wish # 7. Java Integration. 
+
+===11. SVG Support===
+Add support for SVG in FreeMat. E.g. All plots/graphics could have "export to SVG" the same it is done in "Export to Bitmap" in Matlab. See request details [http://sourceforge.net/tracker/index.php?func=detail&aid=1677597&group_id=91526&atid=597449 here].
+
+===12. Web I/O===
+A smooth integration with the web would go a long way in enabling applications for the life sciences (bioinformatics). v.3.2 includes urlwrite but it looks like work in progress - at least as regards the Windows version. This community is a perfect fit for FreeMat, they want it simple, often with heavy reliance on webservices. By the way, if you could build in some webserving capability then these services could be also developed in FM! :-)
+
+===13. JIT Compiler===
+It seems as though with some effort, a JIT compiler could be added to FreeMat to accelerate scalar loops.  In MATLAB, JIT compilation is used to significantly accelerate the speed of some scripts.  While FreeMat is competitive with MATLAB in performance for non JIT-accelerated code, there is no comparison when JIT acceleration is used.  A potentially great source for JIT execution is the [http://www.gnu.org/software/lightning/ GNU lightning] project.  It is unclear as to the current status of that project, though.  Another alternative is the [http://llvm.org LLVM Compiler Infrastructure Project].  They appear to have a JIT engine.  Support for Win is not clear though.
+
+
+===14. BLAS libraries===
+In order to get the full functionality that certain types of BLAS libraries offer (like handling special types of sparse matrices), make these libraries independent of the main executable, much like Matlab and Scilab did. This also enables one to get a highly optimized BLAS for his platform.
+
+===15. Editor's function===
+So far , editor can not recognize pair parentheses. It is quite hard to program.
+I would like the editor to recognize pair parentheses. List four recently opened .m files under the "File" pull down menu.
