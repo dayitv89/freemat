@@ -1,0 +1,5 @@
+#summary How to test FreeMat.
+
+A detailed, simple and clear description on how to test Freemat.
+
+*TBD...*
