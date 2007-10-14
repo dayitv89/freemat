@@ -1,14 +1,14 @@
-#summary Parallelization in Freemat.
+#summary Parallelization in FreeMat.
 
-One area of FreeMat's development that is quite different from MATLAB's is that of parallel programming and development.  Parallel algorithm development in FreeMat is covered by three potential technologies:
+One area of !FreeMat's development that is quite different from MATLAB's is that of parallel programming and development.  Parallel algorithm development in !FreeMat is covered by three potential technologies:
 
-1.  Early versions of FreeMat supported MPI (and it could be re-introduced if there was sufficient interest).  Here the focus was on simplifying the use of the MPI message passing protocols (at the cost of increased overhead).  So, for example, one can send an array A to another node in the MPI world using:
+1.  Early versions of !FreeMat supported MPI (and it could be re-introduced if there was sufficient interest).  Here the focus was on simplifying the use of the MPI message passing protocols (at the cost of increased overhead).  So, for example, one can send an array A to another node in the MPI world using:
 {{{
    mpisend(A,dest,tag,communicator)
 }}}
-where A can be an arbitrary FreeMat data type (although most likely not a user-defined class).  Internally, FreeMat takes care of the code to marshal the array using MPI calls.  This worked reasonably well, but was encumbered by the fact that '''running''' FreeMat over MPI is difficult.  In current builds of FreeMat (starting with 2.0 onwards) the MPI calls are disabled.  When the FreeMat engine interface is completed, it should be easier to use FreeMat and MPI together - the engine can be run as an MPI process, and the UI can be run standalone.  At least, that's the goal.
+where A can be an arbitrary !FreeMat data type (although most likely not a user-defined class).  Internally, !FreeMat takes care of the code to marshal the array using MPI calls.  This worked reasonably well, but was encumbered by the fact that '''running''' !FreeMat over MPI is difficult.  In current builds of !FreeMat (starting with 2.0 onwards) the MPI calls are disabled.  When the !FreeMat engine interface is completed, it should be easier to use FreeMat and MPI together - the engine can be run as an MPI process, and the UI can be run standalone.  At least, that's the goal.
 
-2. Multicore is everywhere.  Shared memory multiprocessor systems are becoming available to everyone, and FreeMat is aimed at helping people utilize them.  The lowest level API available for that are FreeMat-threads.  Starting in version 3.1, FreeMat will support the ability to use multiple threads for computation.  Here is an example of the use of the new thread API:
+2. Multicore is everywhere.  Shared memory multiprocessor systems are becoming available to everyone, and !FreeMat is aimed at helping people utilize them.  The lowest level API available for that are !FreeMat-threads.  Starting in version 3.1, !FreeMat will support the ability to use multiple threads for computation.  Here is an example of the use of the new thread API:
 {{{
     a = threadnew;                         % Create the thread
     threadstart(a,'system',1,'ls -lrt /'); % Start the thread
@@ -19,13 +19,13 @@ where A can be an arbitrary FreeMat data type (although most likely not a user-d
 }}}
 threads can communicate with each other using global variables (which are protected by mutexes).  Additional thread-related constructs (like mutexes and semaphores) will be added in future releases.
 
-3. For a higher level of abstraction, a natural choice is something like OpenMP, but applied to FreeMat instead of C++ or FORTRAN.  A natural fit with FreeMat's high level of abstraction, this approach will require some significant work - the fundamental techniques are already available via the threading API, but support of OpenMP through the interpreter itself will require more work.  The simplest example of an OpenMP directive applied to a FreeMat loop would be something like this:
+3. For a higher level of abstraction, a natural choice is something like !OpenMP, but applied to !FreeMat instead of C++ or FORTRAN.  A natural fit with !FreeMat's high level of abstraction, this approach will require some significant work - the fundamental techniques are already available via the threading API, but support of !OpenMP through the interpreter itself will require more work.  The simplest example of an !OpenMP directive applied to a !FreeMat loop would be something like this:
 {{{
     %!omp parallel for
     for i = 1:10000
        array(i) = some_expensive_function(i)
     end
 }}}
-in which case several threads would be used to execute some_expensive_function in parallel. The use of the "%!" syntax ensures that the OpenMP directives are ignored by versions of FreeMat that do not support them.
+in which case several threads would be used to execute some_expensive_function in parallel. The use of the "%!" syntax ensures that the !OpenMP directives are ignored by versions of FreeMat that do not support them.
 
 _ Note that a successful set of parallel extensions to Matlab has been commercialized as a product called [http://interactivesupercomputing.com/ Star-P] ; this is probably a good place to look for ideas on what kinds of parallelization techniques have worked well in Matlab-like environments._
