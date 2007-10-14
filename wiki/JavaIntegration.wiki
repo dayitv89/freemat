@@ -1,0 +1,17 @@
+#summary Java integration with FreeMat.
+
+== Java Integration ==
+Targeted Java versions should be >= 1.5
+
+=== Resources ===
+Resources related to the the Java integration:
+ * [http://java.sun.com/javase/6/docs/technotes/guides/jni/index.html The classic JNI docs from SUN] - The starting place
+  ** [http://www.netbeans.org/kb/55/beginning-jni-part1.html Beginning JNI with NetBeans C/C++ Pack 5.5, Part I]
+  ** [http://www.netbeans.org/kb/55/beginning-jni-part2.html Beginning JNI with NetBeans C/C++ Pack 5.5, Part II]
+ * [http://scripting.dev.java.net/ JSR 223: Scripting for the Java Platform] - Interesting new integration approch since Java 1.6
+ * [http://www.swig.org/ SWIG Project] - Tool that "automates" the connection of C/C++ programs with other languages.
+ * [http://sourceforge.net/projects/jnative JNative] - Another simpler native integration of Java.
+ * [http://java.sun.com/j2se/1.5.0/docs/guide/awt/1.3/AWT_Native_Interface.html AWT Native Interface] - Java GUI integration solution.
+ * [http://www.codeproject.com/useritems/jni_ex.asp Exception handling in JNI]
+ * [http://www.mathworks.com/access/helpdesk/help/techdoc/index.html?/access/helpdesk/help/techdoc/matlab_external/f38569.html&http://www.google.com/search?q=matlab+engine&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a Matlab as an Engine] - Documentation about how does Matlab the integration.
+ * [http://www.teamdev.com/jniwrapper/index.jsf JNIWrapper] - Example of a commercial (but very nice) native integration of Java. This product is used by many wide used projects (e.g. IntelliJ).
