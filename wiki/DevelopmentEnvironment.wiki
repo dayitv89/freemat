@@ -1,0 +1,26 @@
+#summary Development Environment for FreeMat.
+
+=Development Environment for Freemat=
+Development Environment examples for working on Freemat, listed here to help new contributors get started.
+
+==Minimal Dev Env==
+Minimal hardware and software requirements for developing Freemat.
+
+OS:
+
+IDEs/Editors:
+
+Libraries/Tools:
+
+==Recommended Dev Env==
+A recommended environment to develop Freemat.
+
+OS:
+
+IDEs/Editors:
+
+Libraries/Tools:
+
+
+==Author's Env==
+What was Freemat developed with by it's Author:
