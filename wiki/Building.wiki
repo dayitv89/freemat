@@ -1,0 +1,9 @@
+#summary Building FreeMat.
+
+= Building Freemat =
+
+Simple and clear and precise steps on how to build Freemat from the source.
+See the DevelopmentEnvironment for example
+development environements where these steps apply.
+
+*TBD...*
