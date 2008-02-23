@@ -3,14 +3,14 @@
 =Development Index Page=
 These are all the pages related to the development of !FreeMat.
 
- #[Next_Release Features planned for the next release !FreeMat]
- #[Wishlist User Wishlist for !FreeMat 4]
- #[MatlabCompatibility Matlab Compatibility Matrix]
- #[DevelopmentEnvironment Development Environment for !FreeMat]
- #[Building Building !FreeMat] - 0%
+ #[http://code.google.com/p/freemat/wiki/Next_Release Features planned for the next release !FreeMat]
+ #[http://code.google.com/p/freemat/wiki/Wishlist User Wishlist for !FreeMat 4]
+ #[http://code.google.com/p/freemat/wiki/MatlabCompatibility Matlab Compatibility Matrix]
+ #[http://code.google.com/p/freemat/wiki/DevelopmentEnvironment Development Environment for !FreeMat]
+ #[http://code.google.com/p/freemat/wiki/Building Building !FreeMat] - 0%
  #[Testing Testing !FreeMat] - 0%
  #[BestPractices !FreeMat Dev Best Practices] - 0%
  #[Architecture !FreeMat Architecture] - 0%
  #[Engine !FreeMat Engine] - 0%
- #[JavaIntegration Java Integration]
- #[ParallelizationPlans Parallelization Plans]
+ #[http://code.google.com/p/freemat/wiki/JavaIntegration Java Integration]
+ #[http://code.google.com/p/freemat/wiki/ParallelizationPlans Parallelization Plans]
