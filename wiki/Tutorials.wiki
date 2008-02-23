@@ -13,4 +13,4 @@ At the moment there are no tutorials, but these might be starting points:
 
 
 = Wished =
-  * Getting Started with FreeMat Tutorial
+  * *"Getting Started with FreeMat Tutorial"*
