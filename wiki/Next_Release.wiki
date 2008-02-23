@@ -1,0 +1,30 @@
+#summary Feature planned for the next big release
+
+= Introduction =
+
+This page is intended to track the features planned for the next release of FreeMat (3.3). Although not a complete list, it is intended to cover the main changes.
+
+= Planned Features =
+=== Contour Plots ===
+Contour plots should be fully supported.  FreeMat 3.2 includes the contourc function, which is a partial implementation of the same function from MATLAB.  More work is needed (namely a FreeMat script wrapper to handle the various cases) to complete it.  Then, a HandleObject subclass needs to be created to manage contour plots from within  the handle-based graphics system.
+=== Audio Support ===
+FreeMat 3.3 will support the wavread, wavwrite, wavplay and wavrecord functions from MATLAB.  Although Qt provides some facilities for playing WAV files, there is no record functionality.  The best support library appears to be [http://www.portaudio.com/ portaudio]
+=== Anonymous Functions ===
+Starting with version 6.5 or so, MATLAB has supported anonymous functions - these are functions that can be defined via the syntax "@(x) x^2".  Implementation involves adding a new parse rule to the parser, and some support code.
+=== Nested Functions ===
+Another feature in version 6.5, MATLAB has added support for nested functions.  More details on this as we continue to work on it.
+=== Editor Improvements ===
+In an effort to improve the quality of the editor - I have resolved to use it (instead of Emacs) for a month...  Hopefully, that means the quality of the editor will improve.
+1. Color selection for syntax highlighting of text
+2. Disabling of syntax highlighting
+3. Corrected indentation for nested functions
+=== Debugger Improvements ===
+FreeMat's debugger is not entirely bullet-proof.  With 3.3, I hope to get the remaining issues worked out.
+=== External Interface ===
+There are several ideas for how to use FreeMat as a compute engine for other applications (using it, for example to factorize matrices).  The MATLAB Engine interface uses the particulars of the mxArray structure.  I think a better approach is to create an opaque interface to the engine that is efficient for large homogeneous sets of data.
+=== Mutexes ===
+The new threading API does not have a mutex yet.  In 3.3, the mutex will be added for synchronization of threads.
+=== Portable Installation ===
+Switch to .ini files for Windows configuration settings.  Provide a %FREEMAT_ROOT for path substitution so that relative paths can be used.
+=== pcolor command ===
+Add the "pcolor" command to FreeMat.
