@@ -1,0 +1,16 @@
+#summary Tutorials for FreeMat
+
+= Introduction =
+
+Home for community written tutorials for FreeMat
+
+
+= Details =
+
+At the moment there are no tutorials, but these might be starting points:
+  * [http://edu.levitas.net/Tutorials/Matlab/index.html Matlab Tutorial by T. Nguyen] - very good
+  * [http://www.mathworks.com/access/helpdesk/help/techdoc/matlab.html Matlab Online Documentation] - looks like the entire Matlab documentation is online too.
+
+
+= Wished =
+  * Getting Started with FreeMat Tutorial
