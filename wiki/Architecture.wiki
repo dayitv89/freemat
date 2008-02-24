@@ -1,0 +1,10 @@
+#summary Architecture of FreeMat.
+
+= Introduction =
+
+This document describes the architecture of !FreeMat.
+
+
+= Details =
+
+TBD....
