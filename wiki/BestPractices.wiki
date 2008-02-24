@@ -3,7 +3,7 @@
 = Introduction =
 
 This page describes a set of best practices (considered by the authors) while
-developing for FreeMat (or with FreeMat as an engine)
+developing for !FreeMat (or with !FreeMat as an engine)
 
 
 = Details =
