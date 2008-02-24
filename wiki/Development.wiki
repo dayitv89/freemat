@@ -9,8 +9,8 @@ These are all the pages related to the development of !FreeMat.
  #[http://code.google.com/p/freemat/wiki/DevelopmentEnvironment Development Environment for !FreeMat]
  #[http://code.google.com/p/freemat/wiki/Building Building !FreeMat] - 0%
  #[http://code.google.com/p/freemat/wiki/Testing Testing !FreeMat] - 0%
- #[BestPractices !FreeMat Dev Best Practices] - 0%
- #[Architecture !FreeMat Architecture] - 0%
- #[Engine !FreeMat Engine] - 0%
+ #[http://code.google.com/p/freemat/wiki/BestPractices !FreeMat Dev Best Practices] - 0%
+ #[http://code.google.com/p/freemat/wiki/Architecture !FreeMat Architecture] - 0%
+ #[http://code.google.com/p/freemat/wiki/Engine !FreeMat Engine] - 0%
  #[http://code.google.com/p/freemat/wiki/JavaIntegration Java Integration]
  #[http://code.google.com/p/freemat/wiki/ParallelizationPlans Parallelization Plans]
