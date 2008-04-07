@@ -1,4 +1,4 @@
-#summary A list with possible !FreeMat GUI improvements.
+#summary A list with possible FreeMat GUI improvements.
 
 = Introduction =
 
