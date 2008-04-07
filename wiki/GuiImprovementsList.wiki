@@ -1,4 +1,4 @@
-#A list with possible !FreeMat GUI improvements.
+A list with possible !FreeMat GUI improvements.
 
 = Introduction =
 
@@ -27,4 +27,3 @@ the issue trackers, but it's better to have a central place like this for them, 
   * PDF keymap with all default shorcuts (for print and quick learn).
   * Editor - should have a white gutter. Line numbers and breakpoints sould be inside the white gutter.
   * Editor - 80 char wide red vertical line (and width at configurable column).
-
