@@ -1,0 +1,30 @@
+#A list with possible !FreeMat GUI improvements.
+
+= Introduction =
+
+Since the GUI is the place where the !FreeMat users spend most of thier work time,
+it should get some serious attention in the next versions. In many cases these
+improvemnts are small changes, but with big effect over the productivity or just the general appearance.
+
+= Details =
+
+Here's an unordered list of possible improvements. Some of them are spread all over
+the issue trackers, but it's better to have a central place like this for them, since it's possible that one solution affects more than one issue:
+  * Uniform Look&Feel on all OS platform (or at least a better one on Windows - see QT for possibilities)
+  * Smaller icons from !FamFam (16x16) in Toolbar, but bigger in Menu (the !MenuItem text should be bigger too) than are now.
+  * Shortcuts for all menu items (to be able use the application 100% with the keyboard)
+  * Keymap manager (to be able to re-define the entire keymap).
+  * File/New/M-File
+  * File New/Figure
+  * File/Open 
+  * Console - Setting for cursor blink interval
+  * Console - Setting the cursor dispaly (caret)
+  * Console - Setting for prompt string
+  * Console - there should be a little white inner margin around the text
+  * Files - Distinct icons (not from the OS) for files and dirs based on the !FreeMat significance (e.g. m, mat, images, svg, csv, classes, packages)
+  * Files - context menu with "open in editor" and "run" (and maybe "type")
+  * Pathtool - add a cancel button
+  * PDF keymap with all default shorcuts (for print and quick learn).
+  * Editor - should have a white gutter. Line numbers and breakpoints sould be inside the white gutter.
+  * Editor - 80 char wide red vertical line (and width at configurable column).
+
