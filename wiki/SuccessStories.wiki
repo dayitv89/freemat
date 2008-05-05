@@ -1,0 +1,33 @@
+#summary Who is using FreeMat.
+
+Not the full list by any means, but here is a number of organizations and sites that use !FreeMat. If you want to add your organization's site to this page, please drop a note to http://groups.google.com/group/freemat group or directly to "demetrios dot kyriakis at googlemail dot com".
+
+
+= Educational/Research Organizations =
+
+== University of ... ==
+Short description ...
+
+== University of ... ==
+Short description ...
+
+= Commercial Organizations =
+
+== Company ... =
+Short description
+
+== Company ... =
+Short description
+
+= Open Source Projects =
+
+== Project ... == 
+Short description
+
+== Project ... == 
+Short description
+
+--------
+_*Note:*
+This page is mainly for organiations, projects and sites - not individuals (to avoid spam).
+This is just a temporary page: after it grows a little, it will be added to the official site._
