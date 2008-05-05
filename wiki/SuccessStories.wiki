@@ -5,27 +5,38 @@ Not the full list by any means, but here is a number of organizations and sites 
 
 = Educational/Research Organizations =
 
-== University of ... ==
-Short description ...
+=== University of ... ===
+Short description of what is !FreeMat used there for ...
 
-== University of ... ==
-Short description ...
+
+=== University of ... ===
+Short description of what is !FreeMat used there for ...
 
 = Commercial Organizations =
 
-== Company ... =
-Short description
+=== Company ... ===
+Short company description ...
 
-== Company ... =
-Short description
+Short description of what is !FreeMat used there for ...
+
+
+=== Company ... ===
+Short company description ...
+
+Short description of what is !FreeMat used there for ...
+
 
 = Open Source Projects =
 
-== Project ... == 
-Short description
+=== Project ... === 
+Short project description ...
 
-== Project ... == 
-Short description
+Short description of what is !FreeMat used there for ...
+
+=== Project ... === 
+Short project description ...
+
+Short description of what is !FreeMat used there for ...
 
 --------
 _*Note:*
