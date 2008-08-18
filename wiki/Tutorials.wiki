@@ -7,10 +7,16 @@ Home for community written tutorials for FreeMat
 
 = Details =
 
-At the moment there are no tutorials, but these might be starting points:
+Here's the first Freemat tutorial.  This is not complete (Version 0.9), but Version 1.0 will be coming soon:
+
+* [http://home.comcast.net/~garystar1/freemat_primer.pdf The Freemat Primer (Ver 0.9, PDF format)]
+
+* [http://home.comcast.net/~garystar1/freemat_primer.odt The Freemat Primer (Ver 0.9, OpenOffice format)]
+
+Here are some Matlab-based tutorials:
   * [http://edu.levitas.net/Tutorials/Matlab/index.html Matlab Tutorial by T. Nguyen] - very good
   * [http://www.mathworks.com/access/helpdesk/help/techdoc/matlab.html Matlab Online Documentation] - looks like the entire Matlab documentation is online too.
 
 
 = Wished =
-  * *"Getting Started with FreeMat Tutorial"*
+  * ?
