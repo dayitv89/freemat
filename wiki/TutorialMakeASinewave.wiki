@@ -15,8 +15,8 @@ The function is as follows:
 http://home.comcast.net/~garystar1/sinewave_eqn.png
 
 where:
-* freq = the frequency of the desired sinewave, in Hz.
-* sample rate = the sample rate of the system
+ * freq = the frequency of the desired sinewave, in Hz.
+ * sample rate = the sample rate of the system
 
 Let's make one.  We'll use the code below:
 
