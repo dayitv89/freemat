@@ -1,0 +1,38 @@
+#summary Learn how to make a calibrated sine wave.
+
+= Introduction =
+
+This short tutorial will show you how to make a sine wave that is calibrate to the sample rate you set.
+
+= Details =
+
+A sinusoid, meaning a sine or cosine wave, is a very useful waveform.  It's the primary waveform used to create all major wireless signals, including cellular, 802.11, Bluetooth, FM broadcast, television, you name it.
+
+This makes it useful to know how to create a sine wave that is calibrated to the particular sample rate you set.
+
+The function is as follows:
+
+http://home.comcast.net/~garystar1/sinewave_eqn.png
+
+where:
+* freq = the frequency of the desired sinewave, in Hz.
+* sample rate = the sample rate of the system
+
+Let's make one.  We'll use the code below:
+
+{{{
+t=1:1000;
+freq=20; % This is the frequency, in Hz, of the sinewave.
+sampleRate=10000; % This is the sample rate of the system, in Hz.
+x=sin(2*pi*t*freq/sampleRate);
+time=t/sampleRate; % This creates the time line, in seconds, for the display.
+plot(time,x)
+xlim([0, (1/freq)]) % This adjusts the time line of the display so that only one cycle is made.
+print('sinewave.png') % This prints the sine wave to a file so that you can import it into a document, if you desire.
+}}}
+
+This results in the following sinewave:
+
+http://home.comcast.net/~garystar1/sinewave_time.png
+
+Note that the time on the horizontal axis is calibrated in seconds.  The sinewave we made was a 20 Hz sinewave.  This means it completes one cycle in 1/20=0.05 seconds.  This is shown in the display.
