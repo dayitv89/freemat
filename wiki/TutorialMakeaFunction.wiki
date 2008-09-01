@@ -1,0 +1,103 @@
+#summary This lession will demonstrate how to make a simple function for Freemat.
+
+== Introduction ==
+
+The combination and permutation functions are two basic ones for statistics and probability studies.
+
+The combination is calculated as C(n,r) = n!/(r!(n-r)!)
+
+The permutation is calculated as p(n,r) = n!/(n-r)!
+
+Freemat does not come with these functions built in.  In this lesson, you'll create some very simple functions (they are each only two lines of Freemat code) to add to those already available in Freemat.
+
+In all cases, the ! indicates the factorial function, and is defined as:
+
+x! = x(x-1)(x-2)* ... *3*2*1
+
+Freemat does not explicitly have a factorial function, so we'll make use of the gamma() function.  In that case, x!=gamma(x+1).
+
+== Open the Editor ==
+
+You will need a text editor to create the functions.  You can use Notepad (Windows) or vi or gedit (Linux).  However, one of the great things about Freemat is that it comes with a built-in editor.  That is the one we'll use in this tutorial.
+
+To open the Freemat editor, first open Freemat.  Then, from the command line, type "edit" (without the quotes).  The editor window will open, as shown in the figure below.
+
+[http://home.comcast.net/~garystar1/untitled_freemat_editor_window.png]
+
+== Understanding Functions ==
+
+In Freemat, a function is a script that starts with the word "function" and uses the following syntax:
+
+ function return_value = function(parameter1, parameter2,...,parameterN)
+
+The variable "return_value" is the one that will be the final value passed back to Freemat when the function is complete.  It should be the last value calculated for the function itself.  
+
+== Variables in Functions ==
+
+The parameters passed to the function (parameter1, parameter2, etc) can have descriptive variable names.  In the case of the functions for combination and permutation below, we'll use the variables "n" and "r".  The reason is that these are the common names for the variables when they are described in textbooks and references.
+
+Variables used in functions are separate from those within the script or program that called them.  For example, in our function below, we'll use variables "n" and "r".  However, if we use these variables within Freemat, it will not cause a problem.  Freemat considers them separate.  Clear as mud?  Don't worry if it does not make sense.  Just remember: Variables used within Freemat and those within functions can have the same exact names and Freemat won't get confused.
+
+== Create the Combination Function ==
+
+First, we'll create the combination function.
+
+Our function for calculating combinations will use the function name of "comb".  The code is as follows:
+
+ function return_value=comb(n,r)
+   return_value=gamma(n+1)/(gamma(r+1)gamma(n-r+1));
+
+Within the Freemat window, it appears as follows:
+
+[http://home.comcast.net/~garystar1/combination_function_edit_screen.png]
+
+== Save the Combination Function ==
+
+To make it a function that Freemat can use, store the file in a folder that is part of the Freemat path.  To check the path, use the path tool.  Select *Tools -> Path Tool* and check that the directory where the function will be stored is part of the path.
+
+To save the function, either select *File -> Save* or click on the "Save" icon ([http://home.comcast.net/~garystar1/save_icon.png]).
+
+When you save the file, put a ".m" extension on it.  This lets Freemat know that it is a usable script.
+
+== Create the Permutation Function ==
+
+The permutation function is similar to the combination function.  And it's even simpler.  The code for it is as follows:
+
+  function return_value=perm(n,r)
+   return_value=gamma(n+1)/gamma(n-r+1);
+
+In the Freemat Editor window, it will appear as follows:
+
+[http://home.comcast.net/~garystar1/permutation_function_edit_screen.png]
+
+== Save the Permutation Function ==
+
+Just as with the combination function, save the file to a directory within the working path.
+
+== Test Your Functions ==
+
+Let's do a couple simple tests of your new functions.
+
+--> comb(7,3)
+
+ans =
+
+35
+
+--> perm(7,3)
+
+ans = 
+
+210
+
+== If You Get An Error ==
+
+The most common errors when trying to use functions is:
+
+"Error: Undefined function or variable"
+
+This means that Freemat cannot find the function.  Double-check that you typed the function name correctly.  Also check that the directory where the files are stored is in the path as set by the path tool (*Tools -> Path Tool*).
+
+= Wrap Up =
+
+The two functions you just created will come in very handy if you have to do any calculations for statistics and probability.  This tutorial also gave you the basics for adding your own functions.
