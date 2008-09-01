@@ -48,8 +48,10 @@ First, we'll create the combination function.
 
 Our function for calculating combinations will use the function name of "comb".  The code is as follows:
 
- function return_value=comb(n,r)
-   return_value=gamma(n+1)/(gamma(r+1)gamma(n-r+1));
+{{{
+function return_value=comb(n,r)
+return_value=gamma(n+1)/(gamma(r+1)gamma(n-r+1));
+}}}
 
 Within the Freemat window, it appears as follows:
 
@@ -67,8 +69,10 @@ When you save the file, put a ".m" extension on it.  This lets Freemat know that
 
 The permutation function is similar to the combination function.  And it's even simpler.  The code for it is as follows:
 
-  function return_value=perm(n,r)
-   return_value=gamma(n+1)/gamma(n-r+1);
+{{{
+function return_value=perm(n,r)
+return_value=gamma(n+1)/gamma(n-r+1);
+}}}
 
 In the Freemat Editor window, it will appear as follows:
 
