@@ -50,7 +50,7 @@ Our function for calculating combinations will use the function name of "comb". 
 
 {{{
 function return_value=comb(n,r)
-return_value=gamma(n+1)/(gamma(n-r+1)gamma(r+1));
+return_value=gamma(n+1)/(gamma(n-r+1)*gamma(r+1));
 }}}
 
 Within the Freemat window, it appears as follows:
