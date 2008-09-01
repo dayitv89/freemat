@@ -6,7 +6,11 @@ The combination and permutation functions are two basic ones for statistics and 
 
 The combination is calculated as C(n,r) = n!/(r!(n-r)!)
 
+The number of combinations refers to how many different arrangements we can come up with when the order is not important.  One example is if you have a set of 3 red and 3 green dice.  If we arrange the dice in a line, since the three red and three green are the same, their order won't matter.  The only thing that will matter is the order of the red with respect to the green.
+
 The permutation is calculated as p(n,r) = n!/(n-r)!
+
+Permutation refers to the order of things when the order is important.  For example, consider one die that is rolled 4 times.  The permutation will be all the possible orders of numbers we might have after 4 rolls.  
 
 Freemat does not come with these functions built in.  In this lesson, you'll create some very simple functions (they are each only two lines of Freemat code) to add to those already available in Freemat.
 
