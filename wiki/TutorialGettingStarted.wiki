@@ -1,0 +1,77 @@
+#summary This tutorial will provide a some basic commands and functions to help you get started.
+
+= Introduction =
+
+Freemat is considered a scientific programming language, somewhat similar to the old Fortran.  However, it is modeled along the lines of Matlab.
+
+== Basic Assumption ==
+
+This tutorial assumes that you have Freemat already installed.
+
+== Getting Started: The Command Window ==
+
+Start up Freemat.  When you do, you should see a window similar to that below.
+
+[http://home.comcast.net/~garystar1/command_window.png]
+
+Note the blinking cursor.  This shows where your keystrokes will go when you start typing.  Let's try something real simple.  Type 5*5 and then press the "Enter" key.  You should get something similar to that shown below.
+
+[http://home.comcast.net/~garystar1/basic_command.png]
+
+== The Ans Variable ==
+
+Note the result of this simple command.  It displays the product as entered and gives you a variable, "ans".  As you may have guessed, this stands for "answer".  You can make use of this variable.  For example, type the following command:
+
+x=ans/5.1;
+
+Remember: In order to execute a command, you have to press "Enter".
+
+Next, click on the tab near the upper, lefthand corner marked, "Workspace".  This provides you a list of all current variables that Freemat has values for, as shown in the image below.
+
+[http://home.comcast.net/~garystar1/second_command.png]
+
+Note how the workspace window provides the name of each variable currently in operation, its type, the array dimension, and (in the case of single variables) their values.
+
+== Some Basic Operators ==
+
+The following is a short list of some basic operators you can use:
+
+{{{
+
++ = summation
+- = subtraction
+* = multiplication / product
+/ = division
+^ = exponent
+
+}}}
+
+Here's an example of using the exponent operator:
+
+{{{
+6^2.2
+}}}
+
+The result is shown below.
+
+[http://home.comcast.net/~garystar1/exponent_operator.png]
+
+== Using Variables ==
+
+Think of a variable as a storage unit for some data.  When you store a value into a variable in Freemat, you can use that variable for other calculations later.  
+
+For example, try the following commands (NOTE:  At the end of each line, press the "Enter" key.)
+
+{{{
+x=89;
+y=13.845;
+x/y
+}}}
+
+The result is shown below.
+
+[http://home.comcast.net/~garystar1/using_variables.png]
+
+= Wrap Up =
+
+This tutorial gives you some basic information on how to use Freemat.  Essentially, you type your commands into the command window and Freemat executes them as entered.  In future tutorials, will get more advanced and allow you to tap into the true power of Freemat.
