@@ -16,7 +16,7 @@ Here's the first Freemat tutorial.  This is not complete (Version 0.9), but Vers
 
  * [TutorialGettingStarted Getting Started with Freemat] - This will provide you with some basics so that you can get started using Freemat.
  * [TutorialMakeaFunction Make a Function] - This will show you how to make a function using Freemat.  It does so by showing you how to make your own functions for calculating the combinations and permutations of a set of items.
- * [http://code.google.com/p/freemat/wiki/TutorialMakeASinewave How to Make a Sine Wave] - Make your own calibrated sine wave based on a set sample rate.
+ * [TutorialMakeASinewave How to Make a Sine Wave] - Make your own calibrated sine wave based on a set sample rate.
 
 == External Pages ==
 
