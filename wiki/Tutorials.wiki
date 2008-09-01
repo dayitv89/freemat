@@ -14,8 +14,8 @@ Here's the first Freemat tutorial.  This is not complete (Version 0.9), but Vers
 
 == Tutorials on the Freemat Wiki == 
 
+ * [TutorialMakeaFunction Make a Function]
  * [http://code.google.com/p/freemat/wiki/TutorialMakeASinewave How to Make a Sine Wave]
- * [[TutorialMakeaFunction]]
 
 == External Pages ==
 
