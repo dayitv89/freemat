@@ -1,4 +1,4 @@
-#summary This lession will demonstrate how to make a simple function for Freemat.
+#summary This lesson will demonstrate how to make a simple function for Freemat.
 
 == Introduction ==
 
