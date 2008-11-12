@@ -31,7 +31,7 @@ Short description of what is !FreeMat used there for ...
 === Project ... === 
 Development of a Human-Powered Utility Vehicle For Developing Countries
 
-FreeMat was used as the primary analysis tool for the complete development of a human-powered utility vehicle (HPUV). From strength and stability analysis to reading and processing GPS position data, all the mathematical/data operations needed were completed via FreeMat. The end result was a functioning HPUV in a community in West Africa, and a set of compatible analysis tools available to anyone interested in vehicle performance or human-power analysis. See http://oak.cats.ohiou.edu/~tc285202/HPUV/ for more info.
+!FreeMat was used as the primary analysis tool for the complete development of a human-powered utility vehicle (HPUV). From strength and stability analysis to reading and processing GPS position data, all the mathematical/data operations needed were completed via FreeMat. The end result was a functioning HPUV in a community in West Africa, and a set of compatible analysis tools available to anyone interested in vehicle performance or human-power analysis. See http://oak.cats.ohiou.edu/~tc285202/HPUV/ for more info.
 
 Short description of what is !FreeMat used there for ...
 
