@@ -1,4 +1,4 @@
-#summary Some Articles about or related to !FreeMat
+#summary Some Articles about or related to FreeMat
 
 = Articles =
 
