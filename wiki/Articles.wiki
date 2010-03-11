@@ -1,0 +1,7 @@
+#summary Some Articles about or related to !FreeMat
+
+= Articles =
+
+Some articles about and related to !FreeMat:
+  * [http://thenumericalalgorithmsgroup.blogspot.com/2010/03/calling-nag-fortran-library-from.html Calling the Nag Fortran library from FreeMat]
+  * 
