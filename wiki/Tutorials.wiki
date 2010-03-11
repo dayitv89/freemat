@@ -2,29 +2,33 @@
 
 = Introduction =
 
-Home for community written tutorials for FreeMat
+Home for community written tutorials for !FreeMat.
 
 
 == Downloadable Tutorials ==
 
-Here's the first Freemat tutorial.  This is not complete (Version 0.9), but Version 1.0 will be coming soon:
+Here's the first !FreeMat tutorial.  This is at Version 1.01 :
 
-  * [http://home.comcast.net/~garystar1/freemat_primer.pdf The Freemat Primer] (Ver 0.9, PDF format)
-  * [http://home.comcast.net/~garystar1/freemat_primer.odt The Freemat Primer] (Ver 0.9, OpenOffice format)
+  * [http://freemat.googlegroups.com/web/Freemat_primer_Ver_1.01.pdf The FreeMat Primer] (Ver 1.01, PDF format)
+  * [http://freemat.googlegroups.com/web/Freemat_primer_Ver_1.01.odt The FreeMat Primer] (Ver 1.01, !OpenOffice format)
 
-== Tutorials on the Freemat Wiki == 
+== Tutorials on the FreeMat Wiki == 
 
- * [TutorialGettingStarted Getting Started with Freemat] - This will provide you with some basics so that you can get started using Freemat.
- * [TutorialMakeaFunction Make a Function] - This will show you how to make a function using Freemat.  It does so by showing you how to make your own functions for calculating the combinations and permutations of a set of items.
+ * [TutorialGettingStarted Getting Started with FreeMat] - This will provide you with some basics so that you can get started using !FreeMat.
+ * [TutorialMakeaFunction Make a Function] - This will show you how to make a function using !FreeMat.  It does so by showing you how to make your own functions for calculating the combinations and permutations of a set of items.
  * [TutorialMakeASinewave How to Make a Sine Wave] - Make your own calibrated sine wave based on a set sample rate.
 
 == External Pages ==
 
-Here are some Matlab-based tutorials:
+Here are some nice Matlab-based tutorials:
   * [http://edu.levitas.net/Tutorials/Matlab/index.html Matlab Tutorial by T. Nguyen] - very good
   * [http://www.mathworks.com/access/helpdesk/help/techdoc/matlab.html Matlab Online Documentation] - looks like the entire Matlab documentation is online too.
 
 
 
 = Wished =
-  * ?
+Some Tutorials wished by the community in order to understand !FreeMat better:
+  * How to Build !FreeMat from Source (on various environments) . [http://code.google.com/p/freemat/wiki/Building Empty Stub Here]
+  * How to use the Engine of !FreeMat (or parts of !FreeMat) in other applications. [http://code.google.com/p/freemat/wiki/Engine Empty Stub Here]
+  * The architecture of !FreeMat . [http://code.google.com/p/freemat/wiki/Architecture Empty Stub Here]
+  * See other Empty Subs in this WIKI for wished information.
