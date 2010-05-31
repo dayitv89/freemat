@@ -17,6 +17,7 @@ Here's the first !FreeMat tutorial.  This is at Version 1.01 :
  * [TutorialGettingStarted Getting Started with FreeMat] - This will provide you with some basics so that you can get started using !FreeMat.
  * [TutorialMakeaFunction Make a Function] - This will show you how to make a function using !FreeMat.  It does so by showing you how to make your own functions for calculating the combinations and permutations of a set of items.
  * [TutorialMakeASinewave How to Make a Sine Wave] - Make your own calibrated sine wave based on a set sample rate.
+ * [Tutorial_Plot_Basics Create a Basic Plot] - Create a basic plot, adjust the horizontal and vertical limits, add labels and a title, and save the plot.
 
 == External Pages ==
 
