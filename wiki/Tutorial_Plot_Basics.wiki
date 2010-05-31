@@ -1,0 +1,159 @@
+# This will provide the basics on creating and saving a plot in Freemat.
+
+== Introduction ==
+
+This tutorial will cover the basics of the "plot" command.  It will cover creating a plot, resizing it, setting the limits, and adding labels and a title.
+
+== Creating a Plot ==
+
+First, create a function to plot.
+
+{{{
+t=-63:64;
+signal=cos(2*pi*t/32);
+plot(signal)
+}}}
+
+When you run this, you will finish with a plot that appears like that shown below.
+
+[http://home.comcast.net/~garystar1/plotBasic/plotBasic.png]
+
+== Understanding the Plot Graphic ==
+
+The graph that the _plot_ function creates will open in a window.  The window can be divided into three sections.  These are the _menu_, _menu icon_, and _plot_ areas, as shown below.
+
+[http://home.comcast.net/~garystar1/plotBasic/plot_graph_overview.png]
+
+Also note the fact that the window is numbered, as shown at the top of the window.  We'll cover how to use the figure numbers in a future tutorial.
+
+In the order in which they are presented, the _File_ and _Tool_ menu items perform the following functions:
+
+[http://home.comcast.net/~garystar1/plotBasic/file_save_icon.png]: This can be used to save the plot in a graphic format.  _NOTE: You can also use the print function to save the plot in a graphic format.  We'll cover that below._ 
+
+[http://home.comcast.net/~garystar1/plotBasic/quit_icon.png]: This will close the window.  This is similar to selecting the close window icon in the upper righthand or lefthand corner of the window, depending on the operating system.
+
+[http://home.comcast.net/~garystar1/plotBasic/copy_icon.png]: This will create a copy of the plot window, _minus the border with the various window buttons_.  You can then paste this into a document, such as MS Word or Powerpoint, an Openoffice document, or a graphics program such as Photoshop or Gimp.
+
+[http://home.comcast.net/~garystar1/plotBasic/zoom_icon.png]:  This will allow you to zoom into the plot using the mouse.  Each click of the mouse will divide both the horizontal and vertical axes in half.  _NOTE:  There is no equivalent function to zoom back out.  Once zoomed in, the only way to zoom back out is to either close and re-create the plot window, or use the xlim and ylim functions._
+
+[http://home.comcast.net/~garystar1/plotBasic/pan_icon.png]:  This will allow you to slide the plot area both up and down and/or left and right.  By selecting this icon, you can then click and drag the plot area using the mouse in order to move it.
+
+[http://home.comcast.net/~garystar1/plotBasic/rotate_icon.png]: This allows you to rotate the graphic about the z-axis.  _NOTE:  This is really only useful for three-dimensional (3D) graphs._
+
+[http://home.comcast.net/~garystar1/plotBasic/camera_rotate_icon.png]:  This allows you to rotate the graphic about the x-axis and the y-axis.  _NOTE:  This is really only useful for three-dimensional (3D) graphs._
+
+The _plot_ area itself has an outer and inner position, as shown below.
+
+[http://home.comcast.net/~garystar1/plotBasic/plot_graph_showing_position_and_outerposition.png]
+
+The size of the _outerposition_ box will be 600 pixels wide and 335 pixels high, by default.  The inner, _position_ box will be 420 pixels wide and 235 pixels high.  We'll cover how to use and set the positions of these two "boxes" in a future tutorial.
+
+== Understanding the Plot Command ==
+
+The _plot_ function, at its most basic, creates a two-dimensional (2D) plot.  In this case, you've created a plot of the vector _signal_.  The vector _signal_ is only one-dimensional.  Therefore, in order to create the second dimension, the _plot_ function simply creates a vector using the array counter.  In this case, the array was set to run from -63 to 64.  But the array _counter_ runs from 1 to 128.  If you look at the plot, you will see that the x-axis runs from 1 to 128. (NOTE:  You may be wondering why the array runs from 1 to 128 rather than from 1 to 127 since 64 - (-63) = 127.  It's due to the fact that there's also a value for 0, which means the total number of values will be 64 - (-63) *+ 1* = 128.)  In order to use the actual values for the variable _t_, use the _plot_ function, but with the x-axis variable listed first, as shown below:
+
+{{{
+t=-63:64;
+signal=cos(2*pi*t/32);
+plot(t,signal)
+}}}
+
+This would produce the graph shown below:
+
+[http://home.comcast.net/~garystar1/plotBasic/basic_plot_with_xaxis.png]
+
+Note how now the x-axis on the graph runs from -63 to 64, which is the same values used for the _t_ variable.
+
+== Resizing a Plot ==
+
+There are two ways with which to resize the plot window.  The first is the tried-and-true method of using the mouse, clicking on a corner, and dragging to resize the window.  The second method is to use the _sizefig_ function.  Note that the _sizefig_ function is one of the few functions that does not use a vector for input, instead it simply uses two values, for the width and height, respectively.  The values for the width and the height will be in pixels.  Note that you will be setting the width and height of the outerposition box, as described above.  So, if you use the command _sizefig(800,600)_, this will create a plot window in which the outerposition box will be 800 pixels wide and 600 pixels high.
+
+Here are some examples:
+
+{{{
+sizefig(400,300); % This creates a plot window in which the outerposition box is 400 pixels wide and 300 pixels high.
+sizefig(1024,600); % This creates a plot window in which the outerposition box is 1024 pixels wide and 600 pixels high.
+}}}
+
+== Setting the Limits ==
+
+There are several ways to set the horizontal and vertical axis limits on a plot.  The first we discussed earlier, and that is using the _zoom_ feature in the window.  NOTE:  As of version 4.0, the _zoom_ feature is now provided only for backwards compatibility.  However, it still functions differently between version 3.6 and version 4.0.
+The second method is to use the _xlim_ and _ylim_ functions.  We'll cover these here.  Either function uses a two-value vector, as shown below:
+
+{{{
+t=-63:64;
+signal=cos(2*pi*t/32);
+plot(t,signal)
+xlim([0,50]); % This will set the x-axis to show the values between 0 and 50.
+ylim([0,1]); % This will set the y-axis to show the values between 0 and 1.
+}}}
+
+This will create the plot shown below:
+
+[http://home.comcast.net/~garystar1/plotBasic/basic_plot_with_xlim_and_ylim.png]
+
+== Adding X-axis and Y-axis Labels ==
+
+One of the great features of Freemat is the ease of adding labels and a title to graphs.  This helps to make them ready for saving and sharing.  The labels for the x-axis and y-axis can be applied using the _xlabel_ and _ylabel_ functions, respectively.  Each of these functions takes a string as well as some parameters to set the font size and type.  Here are some examples:
+
+{{{
+xlabel('This is the x-axis label');
+ylabel('This is the y-axis label');
+}}}
+
+Using these will create labels on the graph, as shown below:
+
+[http://home.comcast.net/~garystar1/plotBasic/basic_plot_with_labels.png]
+
+*NOTE: In the current build of Freemat 4.0, the x-axis label gets cut off at the bottom.  This will be fixed at some point.  Until then, here is a work-around.*
+
+To adjust the plot such that all of the x-axis label text is visible, use the following command:
+
+{{{
+set(gca,'position',[0.12 0.15 0.78 0.75]);
+}}}
+
+We'll cover the _position_ property in a future tutorial.  For now, just use the command above.  For the previous example, it will provide the graph shown below:
+
+[http://home.comcast.net/~garystar1/plotBasic/basic_plot_with_labels_adjusted.png]
+
+== Adding a Title ==
+
+Adding a title is no different than adding labels.  Here's an example:
+
+{{{
+title('This is a title')
+}}}
+
+This will create a title as shown below:
+
+[http://home.comcast.net/~garystar1/plotBasic/basic_plot_with_title.png]
+
+*NOTE: Adding a title to a plot may create the following message from Freemat: "Warning: Newly defined variable nargin shadows a function of the same name.  Use clear nargin to recover access to the function."  This is a bug and will be fixed in a future release of Freemat.*
+
+== Saving the Plot Image ==
+
+You've now created the plot of your dreams.  It wouldn't do to just look at it on your screen.  Fortunately, there are two ways to save the image.  The first way is to use the "File -> Save" menu option, or the [http://home.comcast.net/~garystar1/plotBasic/file_save_icon.png] icon, which is the same thing.  This will open a window with which you can select the appropriate directory, provide a file name, and select the type of file you wish to create.
+The second way is to use the _print_ function.  This function allows you to save a plot.  Here's an example:
+
+{{{
+print('plotBasic.png');
+}}}
+
+This will save the file _plotBasic.png_ in the current working directory.  Note that the extension, in this case ".png" also sets the file type.  The current working directory is listed at the top of the Freemat main window.  If you want to set the directory, you can list out the entire directory tree as well as the filename.
+
+Here's an example for setting the directory and filename for Freemat in Windows:
+
+{{{
+print('c:/Program Files/Freemat/plotBasic.png'); % This will put the file "plotBasic.png" into the directory "c:\Program Files\Freemat".
+}}}
+
+Here's an example for setting the directory and filename for Freemat in Linux:
+
+{{{
+print('~/Freemat/plotBasic.png'); % This will put the file "plotBasic.png" into your home directory under the subdirectory "Freemat".
+}}}
+
+== Conclusion ==
+
+I hope you've found this tutorial useful.  Please feel free to request topics for future tutorials.
