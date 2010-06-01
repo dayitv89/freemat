@@ -1,4 +1,4 @@
-#summary This will provide the basics on creating and saving a plot in Freemat.
+# This will provide the basics on creating and saving a plot in Freemat.
 
 == Introduction ==
 
@@ -63,6 +63,32 @@ This would produce the graph shown below:
 [http://home.comcast.net/~garystar1/plotBasic/basic_plot_with_xaxis.png]
 
 Note how now the x-axis on the graph runs from -63 to 64, which is the same values used for the _t_ variable.
+
+== Understanding What a Plot _Does_ ==
+
+*A plot does nothing more than put points on a piece of electronic graph paper (that's the inner, _position_ box of the plot window) and then connect them with lines.*  The points are designated using (x,y) coordinates, typically called a _rectangular coordinate system_.  The difference here is that the _x_ and _y_ coordinates are divided between two, different vectors.  *This is perhaps the part that confuses the most people.*  By separating the two coordinates, it makes it more difficult for a person to determine how the points line up.  Hopefully, the following graphics will make this concept more clear.
+
+We'll start with a set of five points, each with an _x_ and _y_ coordinate.  
+
+[http://home.comcast.net/~garystar1/plotBasic/x_and_y_vectors.png]
+
+Now look at how the individual _x_ and _y_ coordinates pair up, as shown below.
+
+[http://home.comcast.net/~garystar1/plotBasic/x_and_y_vectors_annotated.png]
+
+We can put these vectors into a plot and see how they map to the plot, as shown below.
+
+{{{
+x=[0.1, 0.2, 0.3, 0.4, 0.5];
+y=[1, 0, 2.5, 0.5, 1.5];
+plot(x,y,'bo-')
+}}}
+
+[http://home.comcast.net/~garystar1/plotBasic/basic_5point_plot.png]
+
+Now look at how the different _x_ and _y_ pairs correspond to the points on the plot:
+
+[http://home.comcast.net/~garystar1/plotBasic/basic_5point_plot_annotated.png]
 
 == Resizing a Plot ==
 
