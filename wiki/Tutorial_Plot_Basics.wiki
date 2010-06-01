@@ -1,4 +1,4 @@
-# This will provide the basics on creating and saving a plot in Freemat.
+#summary This will provide the basics on creating and saving a plot in Freemat.
 
 == Introduction ==
 
