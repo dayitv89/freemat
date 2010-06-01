@@ -1,4 +1,4 @@
-#summary This tutorial will provide a some basic commands and functions to help you get started.
+#summary This tutorial will provide some basic commands and functions to help you get started.
 
 = Introduction =
 
