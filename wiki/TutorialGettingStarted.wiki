@@ -12,11 +12,11 @@ This tutorial assumes that you have Freemat already installed.
 
 Start up Freemat.  When you do, you should see a window similar to that below.
 
-[http://home.comcast.net/~garystar1/command_window.png]
+[http://site2241.dyndns-home.com/freemat/command_window.png]
 
 Note the blinking cursor.  This shows where your keystrokes will go when you start typing.  Let's try something real simple.  Type 5*5 and then press the "Enter" key.  You should get something similar to that shown below.
 
-[http://home.comcast.net/~garystar1/basic_command.png]
+[http://site2241.dyndns-home.com/freemat/basic_command.png]
 
 == The Ans Variable ==
 
@@ -28,7 +28,7 @@ Remember: In order to execute a command, you have to press "Enter".
 
 Next, click on the tab near the upper, lefthand corner marked, "Workspace".  This provides you a list of all current variables that Freemat has values for, as shown in the image below.
 
-[http://home.comcast.net/~garystar1/second_command.png]
+[http://site2241.dyndns-home.com/freemat/second_command.png]
 
 Note how the workspace window provides the name of each variable currently in operation, its type, the array dimension, and (in the case of single variables) their values.
 
@@ -54,7 +54,7 @@ Here's an example of using the exponent operator:
 
 The result is shown below.
 
-[http://home.comcast.net/~garystar1/exponent_operator.png]
+[http://site2241.dyndns-home.com/freemat/exponent_operator.png]
 
 == Using Variables ==
 
@@ -70,7 +70,7 @@ x/y
 
 The result is shown below.
 
-[http://home.comcast.net/~garystar1/using_variables.png]
+[http://site2241.dyndns-home.com/freemat/using_variables.png]
 
 = Wrap Up =
 
