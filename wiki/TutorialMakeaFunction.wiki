@@ -26,7 +26,7 @@ You will need a text editor to create the functions.  You can use Notepad (Windo
 
 To open the Freemat editor, first open Freemat.  Then, from the command line, type "edit" (without the quotes).  The editor window will open, as shown in the figure below.
 
-[http://site2241.dyndns-home.com/freemat/untitled_freemat_editor_window.png]
+[http://www.site2241.net/freemat/untitled_freemat_editor_window.png]
 
 == Understanding Functions ==
 
@@ -55,13 +55,13 @@ return_value=gamma(n+1)/(gamma(n-r+1)*gamma(r+1));
 
 Within the Freemat window, it appears as follows:
 
-[http://site2241.dyndns-home.com/freemat/combination_function_edit_screen.png]
+[http://www.site2241.net/freemat/combination_function_edit_screen.png]
 
 == Save the Combination Function ==
 
 To make it a function that Freemat can use, store the file in a folder that is part of the Freemat path.  To check the path, use the path tool.  Select *Tools -> Path Tool* and check that the directory where the function will be stored is part of the path.
 
-To save the function, either select *File -> Save* or click on the "Save" icon ([http://site2241.dyndns-home.com/freemat/save_icon.png]).
+To save the function, either select *File -> Save* or click on the "Save" icon ([http://www.site2241.net/freemat/save_icon.png]).
 
 When you save the file, put a ".m" extension on it.  This lets Freemat know that it is a usable script.
 
@@ -76,7 +76,7 @@ return_value=gamma(n+1)/gamma(n-r+1);
 
 In the Freemat Editor window, it will appear as follows:
 
-[http://site2241.dyndns-home.com/freemat/permutation_function_edit_screen.png]
+[http://www.site2241.net/freemat/permutation_function_edit_screen.png]
 
 == Save the Permutation Function ==
 
