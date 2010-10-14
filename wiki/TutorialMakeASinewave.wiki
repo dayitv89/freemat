@@ -12,7 +12,7 @@ This makes it useful to know how to create a sine wave that is calibrated to the
 
 The function is as follows:
 
-http://site2241.dyndns-home.com/freemat/sinewave_eqn.png
+http://www.site2241.net/freemat/sinewave_eqn.png
 
 where:
  * freq = the frequency of the desired sinewave, in Hz.
@@ -33,6 +33,6 @@ print('sinewave.png') % This prints the sine wave to a file so that you can impo
 
 This results in the following sinewave:
 
-http://site2241.dyndns-home.com/freemat/sinewave_time.png
+http://www.site2241.net/freemat/sinewave_time.png
 
 Note that the time on the horizontal axis is calibrated in seconds.  The sinewave we made was a 20 Hz sinewave.  This means it completes one cycle in 1/20=0.05 seconds.  This is shown in the display.
