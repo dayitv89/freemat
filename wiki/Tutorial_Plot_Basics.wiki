@@ -16,35 +16,35 @@ plot(signal)
 
 When you run this, you will finish with a plot that appears like that shown below.
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/plotBasic.png]
+[http://www.site2241.net/freemat/plotBasic/plotBasic.png]
 
 == Understanding the Plot Graphic ==
 
 The graph that the _plot_ function creates will open in a window.  The window can be divided into three sections.  These are the _menu_, _menu icon_, and _plot_ areas, as shown below.
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/plot_graph_overview.png]
+[http://www.site2241.net/freemat/plotBasic/plot_graph_overview.png]
 
 Also note the fact that the window is numbered, as shown at the top of the window.  We'll cover how to use the figure numbers in a future tutorial.
 
 In the order in which they are presented, the _File_ and _Tool_ menu items perform the following functions:
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/file_save_icon.png]: This can be used to save the plot in a graphic format.  _NOTE: You can also use the print function to save the plot in a graphic format.  We'll cover that below._ 
+[http://www.site2241.net/freemat/plotBasic/file_save_icon.png]: This can be used to save the plot in a graphic format.  _NOTE: You can also use the print function to save the plot in a graphic format.  We'll cover that below._ 
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/quit_icon.png]: This will close the window.  This is similar to selecting the close window icon in the upper righthand or lefthand corner of the window, depending on the operating system.
+[http://www.site2241.net/freemat/plotBasic/quit_icon.png]: This will close the window.  This is similar to selecting the close window icon in the upper righthand or lefthand corner of the window, depending on the operating system.
 
-[http://site2241.dyndns-home.com/freemat/copy_icon.png]: This will create a copy of the plot window, _minus the border with the various window buttons_.  You can then paste this into a document, such as MS Word or Powerpoint, an Openoffice document, or a graphics program such as Photoshop or Gimp.
+[http://www.site2241.net/freemat/copy_icon.png]: This will create a copy of the plot window, _minus the border with the various window buttons_.  You can then paste this into a document, such as MS Word or Powerpoint, an Openoffice document, or a graphics program such as Photoshop or Gimp.
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/zoom_icon.png]:  This will allow you to zoom into the plot using the mouse.  Each click of the mouse will divide both the horizontal and vertical axes in half.  _NOTE:  There is no equivalent function to zoom back out.  Once zoomed in, the only way to zoom back out is to either close and re-create the plot window, or use the xlim and ylim functions._
+[http://www.site2241.net/freemat/plotBasic/zoom_icon.png]:  This will allow you to zoom into the plot using the mouse.  Each click of the mouse will divide both the horizontal and vertical axes in half.  _NOTE:  There is no equivalent function to zoom back out.  Once zoomed in, the only way to zoom back out is to either close and re-create the plot window, or use the xlim and ylim functions._
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/pan_icon.png]:  This will allow you to slide the plot area both up and down and/or left and right.  By selecting this icon, you can then click and drag the plot area using the mouse in order to move it.
+[http://www.site2241.net/freemat/plotBasic/pan_icon.png]:  This will allow you to slide the plot area both up and down and/or left and right.  By selecting this icon, you can then click and drag the plot area using the mouse in order to move it.
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/rotate_icon.png]: This allows you to rotate the graphic about the z-axis.  _NOTE:  This is really only useful for three-dimensional (3D) graphs._
+[http://www.site2241.net/freemat/plotBasic/rotate_icon.png]: This allows you to rotate the graphic about the z-axis.  _NOTE:  This is really only useful for three-dimensional (3D) graphs._
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/camera_rotate_icon.png]:  This allows you to rotate the graphic about the x-axis and the y-axis.  _NOTE:  This is really only useful for three-dimensional (3D) graphs._
+[http://www.site2241.net/freemat/plotBasic/camera_rotate_icon.png]:  This allows you to rotate the graphic about the x-axis and the y-axis.  _NOTE:  This is really only useful for three-dimensional (3D) graphs._
 
 The _plot_ area itself has an outer and inner position, as shown below.
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/plot_graph_showing_position_and_outerposition.png]
+[http://www.site2241.net/freemat/plotBasic/plot_graph_showing_position_and_outerposition.png]
 
 The size of the _outerposition_ box will be 600 pixels wide and 335 pixels high, by default.  The inner, _position_ box will be 420 pixels wide and 235 pixels high.  We'll cover how to use and set the positions of these two "boxes" in a future tutorial.
 
@@ -60,7 +60,7 @@ plot(t,signal)
 
 This would produce the graph shown below:
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/basic_plot_with_xaxis.png]
+[http://www.site2241.net/freemat/plotBasic/basic_plot_with_xaxis.png]
 
 Note how now the x-axis on the graph runs from -63 to 64, which is the same values used for the _t_ variable.
 
@@ -70,11 +70,11 @@ Note how now the x-axis on the graph runs from -63 to 64, which is the same valu
 
 We'll start with a set of five points, each with an _x_ and _y_ coordinate.  
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/x_and_y_vectors.png]
+[http://www.site2241.net/freemat/plotBasic/x_and_y_vectors.png]
 
 Now look at how the individual _x_ and _y_ coordinates pair up, as shown below.
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/x_and_y_vectors_annotated.png]
+[http://www.site2241.net/freemat/plotBasic/x_and_y_vectors_annotated.png]
 
 We can put these vectors into a plot and see how they map to the plot, as shown below.
 
@@ -84,11 +84,11 @@ y=[1, 0, 2.5, 0.5, 1.5];
 plot(x,y,'bo-')
 }}}
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/basic_5point_plot.png]
+[http://www.site2241.net/freemat/plotBasic/basic_5point_plot.png]
 
 Now look at how the different _x_ and _y_ pairs correspond to the points on the plot:
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/basic_5point_plot_annotated.png]
+[http://www.site2241.net/freemat/plotBasic/basic_5point_plot_annotated.png]
 
 == Resizing a Plot ==
 
@@ -116,7 +116,7 @@ ylim([0,1]); % This will set the y-axis to show the values between 0 and 1.
 
 This will create the plot shown below:
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/basic_plot_with_xlim_and_ylim.png]
+[http://www.site2241.net/freemat/plotBasic/basic_plot_with_xlim_and_ylim.png]
 
 == Adding X-axis and Y-axis Labels ==
 
@@ -129,7 +129,7 @@ ylabel('This is the y-axis label');
 
 Using these will create labels on the graph, as shown below:
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/basic_plot_with_labels.png]
+[http://www.site2241.net/freemat/plotBasic/basic_plot_with_labels.png]
 
 *NOTE: In the current build of Freemat 4.0, the x-axis label gets cut off at the bottom.  This will be fixed at some point.  Until then, here is a work-around.*
 
@@ -141,7 +141,7 @@ set(gca,'position',[0.12 0.15 0.78 0.75]);
 
 We'll cover the _position_ property in a future tutorial.  For now, just use the command above.  For the previous example, it will provide the graph shown below:
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/basic_plot_with_labels_adjusted.png]
+[http://www.site2241.net/freemat/plotBasic/basic_plot_with_labels_adjusted.png]
 
 == Adding a Title ==
 
@@ -153,7 +153,7 @@ title('This is a title')
 
 This will create a title as shown below:
 
-[http://site2241.dyndns-home.com/freemat/plotBasic/basic_plot_with_title.png]
+[http://www.site2241.net/freemat/plotBasic/basic_plot_with_title.png]
 
 *NOTE: Adding a title to a plot may create the following message from Freemat: "Warning: Newly defined variable nargin shadows a function of the same name.  Use clear nargin to recover access to the function."  This is a bug and will be fixed in a future release of Freemat.*
 
