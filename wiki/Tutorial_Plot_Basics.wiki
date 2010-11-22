@@ -32,7 +32,7 @@ In the order in which they are presented, the _File_ and _Tool_ menu items perfo
 
 [http://www.site2241.net/freemat/plotBasic/quit_icon.png]: This will close the window.  This is similar to selecting the close window icon in the upper righthand or lefthand corner of the window, depending on the operating system.
 
-[http://www.site2241.net/freemat/copy_icon.png]: This will create a copy of the plot window, _minus the border with the various window buttons_.  You can then paste this into a document, such as MS Word or Powerpoint, an Openoffice document, or a graphics program such as Photoshop or Gimp.
+[http://www.site2241.net/freemat/plotBasic/copy_icon.png]: This will create a copy of the plot window, _minus the border with the various window buttons_.  You can then paste this into a document, such as MS Word or Powerpoint, an Openoffice document, or a graphics program such as Photoshop or Gimp.
 
 [http://www.site2241.net/freemat/plotBasic/zoom_icon.png]:  This will allow you to zoom into the plot using the mouse.  Each click of the mouse will divide both the horizontal and vertical axes in half.  _NOTE:  There is no equivalent function to zoom back out.  Once zoomed in, the only way to zoom back out is to either close and re-create the plot window, or use the xlim and ylim functions._
 
